@@ -1,0 +1,32 @@
+processNumber = 5
+listOfProcesses = ["p0","p1","p2","p3","p4"]
+arr = [1,2,3,4]
+ExecutionTimes = [7,7,7,7,7]
+clockProcess = []
+
+while len(list) != 0:
+
+	lenghtOfarr = len(ArrivalTimes) 
+
+	temp = []
+	
+	for o in range(lenghtOfarr):
+		if arr[o] <= clock:
+			temp.append(arr[o])
+	
+	
+	for k in range(lenghtOfarr):
+		
+		if arr[k] == minimumArrivalTime:
+
+			for p in range(ExecutionTimes[k]):
+				clockProcess.append(list[k])
+turnAroundTimes = []
+waitingtimes = []
+responseTimes = []
+for i in range(len(copyOfarr)):
+	responseTimes.append(waitingtimes[i]-copyOfarr[i])
+
+averageResponseTime = float(sum(responseTimes))/len(copyOfarr)
+averageTurnAroundTime = float(sum(turnAroundTimes))/len(copyOfarr)
+

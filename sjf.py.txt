@@ -1,0 +1,35 @@
+
+	for o in range(len(arr)):
+		if arr[o] <= clock :
+			temp.append(ExecutionTimes[o])
+
+	minTime = min(temp)
+	
+	for k in range(len(ExecutionTimes)):
+		if ExecutionTimes[k] == minTime:
+			
+			
+			arr.remove(ArrivalTimes[k])
+			
+	clock = clock + ExecutionTimes[tmp]
+	ExecutionTimes.remove(ExecutionTimes[tmp])
+
+	processNumber = processNumber - 1
+
+
+
+		
+
+waitingtimes = []
+for i in range(len(copyOfList)):
+	waitingtimes.append(processPerClock.index("p" + str(i)))
+
+averageWaitingsTime = float(sum(waitingtimes))/len(copyOfList)
+
+
+
+responseTimes = []
+
+averageResponseTime = float(sum(responseTimes))/len(copyOfarr)
+
+

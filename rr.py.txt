@@ -1,0 +1,42 @@
+
+processNumber = 5
+listOfProcesses = ["p0","p1","p2","p3","p4"]
+arr = [1,2,3,4,5]
+exe = [6,6,6,6,6]
+
+clock = 0
+
+processPerClock = []
+
+
+arr_sorted = [arr for arr, exe in AE]
+
+exe_sorted = [exe for arr, exe in AE]
+
+
+
+Al = zip(copyOfarr,list)
+Al.sort()
+listOfProcesses_sorted = [list for copyOfarr, list in Al]
+
+
+while len(list) != 0:
+
+	
+
+	
+	for k in range(len(AE)):
+		
+		for j in range(quantom):
+			if exe_sorted[k] > 0:
+
+
+	
+
+
+turnAround = []
+
+
+responseTimes = []
+for i in range(len(copyOfarr2)):
+	responseTimes.append(turnAround [i]-copyOfarr2[i])
